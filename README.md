@@ -55,9 +55,9 @@ Before you begin, ensure you have the following installed:
     ```
     on the centos
     ```bash
-    sudo yum install epel-release
-    sudo yum install awscli
+    sudo pip install awscli --upgrade
     ```
+Please note that you should have the last version of AWS-CLI so please check [official-aws-installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 2. **JQ**: This is a lightweight and flexible command-line JSON processor. 
     ```bash
