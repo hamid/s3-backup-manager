@@ -53,13 +53,22 @@ Before you begin, ensure you have the following installed:
     ```bash
     sudo apt-get install awscli
     ```
+    on the centos
+    ```bash
+    sudo yum install epel-release
+    sudo yum install awscli
+    ```
 
 2. **JQ**: This is a lightweight and flexible command-line JSON processor. 
     ```bash
     sudo apt-get install jq
     ```
+    on the centos
+    ```bash
+    sudo yum install jq
+    ```
 
-3. **Backup Manager Script**: Ensure the `backup_manager.sh` script is present on your system and is executable. You can clone it from the repository and make it executable:
+4. **Backup Manager Script**: Ensure the `backup_manager.sh` script is present on your system and is executable. You can clone it from the repository and make it executable:
     ```bash
     git clone git@github.com:hamid/s3-backup-manager.git
     chmod +x backup_manager.sh
